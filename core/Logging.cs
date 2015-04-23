@@ -140,44 +140,24 @@ namespace core
 
         #region (public) helper logging functions
 
-        public void Debug(String source, String message)
+        public void Debug(String message, params object[] arguments)
         {
-            LogMessage(Priority.Debug, source, message);
+            LogMessage(Priority.Debug, _source, String.Format(message, arguments));
         }
 
-        public void Debug(String message)
+        public void Info(String message, params object[] arguments)
         {
-            Debug(_source, message);
+            LogMessage(Priority.Info, _source, String.Format(message, arguments));
         }
 
-        public void Info(String source, String message)
+        public void Warning(String message, params object[] arguments)
         {
-            LogMessage(Priority.Info, source, message);
+            LogMessage(Priority.Warning, _source, String.Format(message, arguments));
         }
 
-        public void Info(String message)
+        public void Error(String message, params object[] arguments)
         {
-            Info(_source, message);
-        }
-
-        public void Warning(String source, String message)
-        {
-            LogMessage(Priority.Warning, source, message);
-        }
-
-        public void Warning(String message)
-        {
-            Warning(_source, message);
-        }
-
-        public void Error(String source, String message)
-        {
-            LogMessage(Priority.Error, source, message);
-        }
-
-        public void Error(String message)
-        {
-            Error(_source, message);
+            LogMessage(Priority.Error, _source, String.Format(message, arguments));
         }
 
         #endregion
