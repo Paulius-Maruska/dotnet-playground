@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-methods", "async-meth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-colors", "console-colors\console-colors.csproj", "{82B401C1-B3E7-436A-AACE-05EBC1D34F7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-writer", "custom-writer\custom-writer.csproj", "{58410937-26F3-4FE9-ABA8-DAF8EFB9F696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-formatter", "custom-formatter\custom-formatter.csproj", "{F36E3B75-9895-4A1A-AF62-44688CF06AB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,14 @@ Global
 		{82B401C1-B3E7-436A-AACE-05EBC1D34F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B401C1-B3E7-436A-AACE-05EBC1D34F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B401C1-B3E7-436A-AACE-05EBC1D34F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58410937-26F3-4FE9-ABA8-DAF8EFB9F696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58410937-26F3-4FE9-ABA8-DAF8EFB9F696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58410937-26F3-4FE9-ABA8-DAF8EFB9F696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58410937-26F3-4FE9-ABA8-DAF8EFB9F696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36E3B75-9895-4A1A-AF62-44688CF06AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36E3B75-9895-4A1A-AF62-44688CF06AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36E3B75-9895-4A1A-AF62-44688CF06AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36E3B75-9895-4A1A-AF62-44688CF06AB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
