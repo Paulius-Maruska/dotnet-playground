@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unhandled-exception", "unha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sms-length", "sms-length\sms-length.csproj", "{650A2832-E0D6-42DD-BB01-334DEFBAC3B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "default-formats", "default-formats\default-formats.csproj", "{A896B57E-9C06-46A4-B78C-873734A277FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{650A2832-E0D6-42DD-BB01-334DEFBAC3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650A2832-E0D6-42DD-BB01-334DEFBAC3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650A2832-E0D6-42DD-BB01-334DEFBAC3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A896B57E-9C06-46A4-B78C-873734A277FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A896B57E-9C06-46A4-B78C-873734A277FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A896B57E-9C06-46A4-B78C-873734A277FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A896B57E-9C06-46A4-B78C-873734A277FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
